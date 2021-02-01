@@ -1,5 +1,10 @@
 *{
     font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px gray;
 }
 .calculator-grid {
     align-content: center;
@@ -19,14 +24,16 @@
 
 
 .output {
+    box-shadow: inset 0px 0px 5px rgb(56, 27, 27);
+    border:3px solid greenyellow;
     grid-column: 1 / -1;
-    background-color:rgba(0, 0, 0, .75);
+    background-color:orange;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     justify-content: space-around;
     font-size: 1.5rem;
-    color: seashell;
+    color: gray;
 }
 
 .operand-one{
